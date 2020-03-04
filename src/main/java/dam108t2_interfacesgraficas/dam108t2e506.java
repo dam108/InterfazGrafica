@@ -14,12 +14,12 @@ import javax.swing.JOptionPane;
  *
  * @author JDoval
  */
-public class dam108t3e506 extends javax.swing.JFrame {
+public class dam108t2e506 extends javax.swing.JFrame {
 
     /**
      * Creates new form dam108t3e506
      */
-    public dam108t3e506() {
+    public dam108t2e506() {
         initComponents();
         movil = new cMovilPrepago_v4(635294544, 1f, 0.15f, 0.10f, 100.0f);
         float saldo = movil.consultarSaldo();
@@ -192,20 +192,21 @@ public class dam108t3e506 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(dam108t3e506.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(dam108t2e506.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(dam108t3e506.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(dam108t2e506.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(dam108t3e506.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(dam108t2e506.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(dam108t3e506.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(dam108t2e506.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new dam108t3e506().setVisible(true);
+                new dam108t2e506().setVisible(true);
             }
         });
     }
